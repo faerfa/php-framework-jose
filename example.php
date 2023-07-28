@@ -1,11 +1,3 @@
-# php-framework-jose
-JOSE 提供了生成、解析和验证 JWT 和 JWS 令牌的功能。
-
-> 注意低于 php 8.1 无法运行
-
-### 示例
-
-```php
 <?php
 declare(strict_types=1);
 
@@ -43,4 +35,5 @@ try {
     var_dump($exception->getMessage());
 }
 
-```
+
+
